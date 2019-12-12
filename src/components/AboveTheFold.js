@@ -13,6 +13,9 @@ export default function AboveTheFold({ date, url, title, explanation, changeDate
 
   return (
     <>
+      <h1>Astronomy Photo of the Day
+        <span> from NASA</span>
+      </h1>
       <p>{date}</p>
       <img src={url} alt="Astronomy of the Day" /><br />
       <b>{title}</b><br />
